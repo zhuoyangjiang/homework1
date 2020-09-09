@@ -21,21 +21,21 @@ def getGradePoint(grade):
         return 0.00
 
 def run():
-    print("Enter your course 1 letter grade:" , end='')
+    print("Enter your course 1 letter grade: " , end='')
     gradepoint1 = getGradePoint(input())
-    print("Enter your course 1 credit:" , end='')
+    print("Enter your course 1 credit: " , end='')
     credit1 = int(input())
     print(f"Grade point for course 1 is: {gradepoint1}")
 
-    print("Enter your course 2 letter grade:" , end='')
+    print("Enter your course 2 letter grade: " , end='')
     gradepoint2 = getGradePoint(input())
-    print("Enter your course 2 credit:" , end='')
+    print("Enter your course 2 credit: " , end='')
     credit2 = int(input())
     print(f"Grade point for course 2 is: {gradepoint2}")
 
-    print("Enter your course 3 letter grade:" , end='')
+    print("Enter your course 3 letter grade: " , end='')
     gradepoint3 = getGradePoint(input())
-    print("Enter your course 3 credit:" , end='')
+    print("Enter your course 3 credit: " , end='')
     credit3 = int(input())
     print(f"Grade point for course 3 is: {gradepoint3}")
 
